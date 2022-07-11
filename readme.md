@@ -1,11 +1,11 @@
-# removeaccents
+# removeaccent
 
 > Removes accents from a string.
 
 ## Install
 
 ```sh
-npm install removeaccents
+npm install removeaccent
 ```
 
 ## Usage
