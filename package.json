@@ -1,0 +1,43 @@
+{
+  "name": "removeaccents",
+  "version": "1.0.0",
+  "description": "Removes accents from a string.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mostafa-Milani-Amin/removeAccents.git"
+  },
+  "keywords": [
+    "remove",
+    "accents",
+    "diacritic",
+    "glyph",
+    "letter",
+    "letters",
+    "word",
+    "words",
+    "greek",
+    "diacritical",
+    "latin",
+    "script",
+    "javascript",
+    "js",
+    "alphabet",
+    "alphabets",
+    "acute",
+    "grave",
+    "orthography",
+    "collation",
+    "removeaccents",
+    "ascii"
+  ],
+  "author": "Mostafa Milani Amin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mostafa-Milani-Amin/removeAccents/issues"
+  },
+  "homepage": "https://github.com/Mostafa-Milani-Amin/removeAccents#readme"
+}
