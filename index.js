@@ -1,0 +1,3 @@
+const removeAccents = str => { let strWithoutAccents = new Array(); for (let i = 0; i < str.split('').length; i++) { 'ÀÁÂÃÄÅàáâãäåÒÓÔÕÕÖØòóôõöøÈÉÊËèéêëðÇçÐÌÍÎÏìíîïÙÚÛÜùúûüÑñŠšŸÿýŽž'.indexOf(str.split('')[i]) != -1 ? strWithoutAccents[i] = 'AAAAAAaaaaaaOOOOOOOooooooEEEEeeeeeCcDIIIIiiiiUUUUuuuuNnSsYyyZz'.substring('ÀÁÂÃÄÅàáâãäåÒÓÔÕÕÖØòóôõöøÈÉÊËèéêëðÇçÐÌÍÎÏìíîïÙÚÛÜùúûüÑñŠšŸÿýŽž'.indexOf(str.split('')[i]), 'ÀÁÂÃÄÅàáâãäåÒÓÔÕÕÖØòóôõöøÈÉÊËèéêëðÇçÐÌÍÎÏìíîïÙÚÛÜùúûüÑñŠšŸÿýŽž'.indexOf(str.split('')[i]) + 1) : strWithoutAccents[i] = str.split('')[i] } return strWithoutAccents.join('') };
+
+module.exports = { removeAccents };
